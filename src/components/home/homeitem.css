@@ -1,0 +1,101 @@
+.mobile_div,
+.labtop_div,
+.hyper_div,
+.appliance_div,
+.clothing_div,
+.media_div,
+.vihicle_div,
+.sport_div,
+.medical_div,
+.cultural_div,
+.baby_div,
+.health_div,
+.others_div {
+  margin-left: 24px;
+}
+.mobile_div:hover,
+.labtop_div:hover,
+.hyper_div:hover,
+.appliance_div:hover,
+.clothing_div:hover,
+.health_div:hover,
+.media_div:hover,
+.vihicle_div:hover,
+.sport_div:hover,
+.medical_div:hover,
+.cultural_div:hover,
+.baby_div:hover,
+.others_div:hover {
+  color: #d73948;
+  cursor: pointer;
+}
+
+.hyper_div,
+.appliance_div,
+.clothing_div,
+.health_div,
+.media_div,
+.vihicle_div,
+.sport_div,
+.medical_div,
+.cultural_div,
+.baby_div {
+  display: none;
+}
+/* _____800px____ */
+@media only screen and (min-width: 800px) {
+  .hyper_div {
+    display: block;
+  }
+}
+/* _____925px____ */
+@media only screen and (min-width: 925px) {
+  .appliance_div {
+    display: block;
+  }
+}
+/* _____1000px____ */
+@media only screen and (min-width: 1000px) {
+  .clothing_div {
+    display: block;
+  }
+}
+/* _____1155px____ */
+@media only screen and (min-width: 1155px) {
+  .health_div {
+    display: block;
+  }
+}
+/* _____1300px____ */
+@media only screen and (min-width: 1300px) {
+  .media_div {
+    display: block;
+  }
+}
+/* _____1445px____ */
+@media only screen and (min-width: 1445px) {
+  .vihicle_div {
+    display: block;
+  }
+}
+/* _____1645px____ */
+@media only screen and (min-width: 1645px) {
+  .sport_div {
+    display: block;
+  }
+  .medical_div {
+    display: block;
+  }
+}
+/* _____1745px____ */
+@media only screen and (min-width: 1745px) {
+  .cultural_div {
+    display: block;
+  }
+}
+/* _____1900px____ */
+@media only screen and (min-width: 1900px) {
+  .baby_div {
+    display: block;
+  }
+}

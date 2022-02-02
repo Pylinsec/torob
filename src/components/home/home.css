@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 .home_header_item_out {
-  width: 305px;
+  width: 100%;
   height: 86px;
   margin-bottom: 5px;
   font-family: iranyekanwebregular, Aerial;
@@ -21,17 +21,6 @@
   display: flex;
   align-items: center;
   direction: rtl;
-}
-.mobile_div,
-.labtop_div,
-.others_div {
-  margin-left: 24px;
-}
-.mobile_div:hover,
-.labtop_div:hover,
-.others_div:hover {
-  color: #d73948;
-  cursor: pointer;
 }
 .home_header_sign {
   width: 108px;
