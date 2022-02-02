@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "iranyekanwebbold.woff";
+  font-family: "iranyekanwebbold";
   src: local("iranyekanwebbold"),
     url(./assets/fonts/iranyekanwebbold.woff) format("woff");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: "iranyekanwebregular.woff";
+  font-family: "iranyekanwebregular";
   src: local("iranyekanwebregular"),
     url(./assets/fonts/iranyekanwebregular.woff) format("woff");
   font-weight: 400;
@@ -16,6 +16,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: IRANSansWeb, "sans-serif";
-  text-decoration: none; */
+  font-family: iranyekanwebregular, Aerial;
 }
