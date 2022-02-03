@@ -42,6 +42,12 @@
 .baby_div {
   display: none;
 }
+/* _____576px____ */
+@media only screen and (min-width: 576px) {
+  .home_header {
+    height: 48px;
+  }
+}
 /* _____800px____ */
 @media only screen and (min-width: 800px) {
   .hyper_div {

@@ -18,7 +18,7 @@ import Hypermarket from "./components/hypermarket/hypermarket";
 
 function App() {
   return (
-    <div className="app_container">
+    <div className="app_container bg-[#f2f3f5]">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/appliance" element={<Appliance />} />

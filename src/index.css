@@ -18,3 +18,19 @@
   box-sizing: border-box;
   font-family: iranyekanwebregular, Aerial;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utility {
+  .text-color1 {
+    float: right;
+    color: #d73948;
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    min-width: 165px;
+    line-height: 69px;
+    margin: 0;
+    padding: 0;
+  }
+}
