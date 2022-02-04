@@ -1,10 +1,10 @@
 import React from "react";
 import close from "./../../assets/svg/close.svg";
-export default function Login() {
+export default function Login({ closeLogin }) {
   return (
-    <main className="bg-[#FFF]">
+    <main className="bg-[#FFF] absolute top-[140px] flex justify-center items-center z-100">
       <div className="w-[400px] h-[300px] bg-[#FFFFFF] ">
-        <section className="">
+        <section onClick={() => closeLogin(false)} className="cursor-pointer">
           <img className="mt-[5px]" src={close} alt="closeicon" />
         </section>
         <section className=" text-center">
@@ -18,7 +18,7 @@ export default function Login() {
             شماره موبایل{" "}
           </div>
           <div>
-            <input className="w-full h-[34px] text-[#FFFFFF] text-[14px] px-[12px] py-[6px] border-none"></input>
+            <input className="w-full h-[34px] bg-[#FFFFFF] text-[14px] px-[12px] py-[6px] boreder-[2px] border-solid border-[#cccc]"></input>
             <div className="h-[28px]">
               <p className=" text-[13px] text-right text-[#BF1F25] hidden">
                 باید ۱۱ رقم باشد و با 09 شروع شود.

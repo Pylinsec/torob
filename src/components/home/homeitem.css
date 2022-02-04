@@ -1,3 +1,15 @@
+.hyper_div,
+.appliance_div,
+.clothing_div,
+.health_div,
+.media_div,
+.vihicle_div,
+.sport_div,
+.medical_div,
+.cultural_div,
+.baby_div {
+  display: none;
+}
 .mobile_div,
 .labtop_div,
 .hyper_div,
@@ -30,18 +42,6 @@
   cursor: pointer;
 }
 
-.hyper_div,
-.appliance_div,
-.clothing_div,
-.health_div,
-.media_div,
-.vihicle_div,
-.sport_div,
-.medical_div,
-.cultural_div,
-.baby_div {
-  display: none;
-}
 /* _____576px____ */
 @media only screen and (min-width: 576px) {
   .home_header {
