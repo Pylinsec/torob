@@ -15,20 +15,23 @@ import Mobile from "../mobile/mobile";
 import Sport from "../sport/sport";
 import Vihicle from "../vihicle/vihicle";
 import Others from "../others/others";
+import Login from "../login/login";
 
-export default function Modals() {
-  const [appliance, openappliance] = useState(false);
-  const [baby, openbaby] = useState(false);
-  const [clothing, openclothing] = useState(false);
-  const [computer, opencomputer] = useState(false);
-  const [cultural, opencultural] = useState(false);
-  const [health, openhealth] = useState(false);
-  const [hypermarket, openhypermarket] = useState(false);
-  const [media, openmedia] = useState(false);
-  const [medical, openmedical] = useState(false);
-  const [mobile, openmobile] = useState(false);
-  const [sport, opensport] = useState(false);
-  const [vihicle, openvihicle] = useState(false);
-  const [others, openothers] = useState(false);
-  return <div>modals</div>;
+function Modals() {
+  const [appliance, setOpenAppliance] = useState(false);
+  const [baby, setOpenbaby] = useState(false);
+  const [clothing, setOpenClothing] = useState(false);
+  const [computer, setOpenComputer] = useState(false);
+  const [cultural, setOpenCultural] = useState(false);
+  const [health, setOpenHealth] = useState(false);
+  const [hypermarket, setOpenHypermarket] = useState(false);
+  const [media, setOpenMedia] = useState(false);
+  const [medical, setOpenMedical] = useState(false);
+  const [mobile, setOpenMobile] = useState(false);
+  const [sport, setOpenSport] = useState(false);
+  const [vihicle, setOpenVihicle] = useState(false);
+  const [others, setOpenOthers] = useState(false);
+  const [login, setOpenLogin] = useState(false);
+  return <div></div>;
 }
+export default Modals();

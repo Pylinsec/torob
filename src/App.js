@@ -15,6 +15,7 @@ import Others from "./components/others/others";
 import Sport from "./components/sport/sport";
 import Vihicle from "./components/vihicle/vihicle";
 import Hypermarket from "./components/hypermarket/hypermarket";
+import Login from "./components/login/login";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/sport" element={<Sport />} />
         <Route path="/vihicle" element={<Vihicle />} />
         <Route path="/others" element={<Others />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </div>
   );

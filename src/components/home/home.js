@@ -2,12 +2,28 @@ import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./home.css";
 import "./homeitem.css";
-import Modals from "./modals";
 import torob_logo from "./../../assets/svg/torob_logo.svg";
 import search from "./../../assets/svg/search.svg";
+import Login from "../login/login";
+import { useState } from "react";
+
 export default function Home() {
+  const [appliance, setOpenAppliance] = useState(false);
+  const [baby, setOpenbaby] = useState(false);
+  const [clothing, setOpenClothing] = useState(false);
+  const [computer, setOpenComputer] = useState(false);
+  const [cultural, setOpenCultural] = useState(false);
+  const [health, setOpenHealth] = useState(false);
+  const [hypermarket, setOpenHypermarket] = useState(false);
+  const [media, setOpenMedia] = useState(false);
+  const [medical, setOpenMedical] = useState(false);
+  const [mobile, setOpenMobile] = useState(false);
+  const [sport, setOpenSport] = useState(false);
+  const [vihicle, setOpenVihicle] = useState(false);
+  const [others, setOpenOthers] = useState(false);
+  const [login, setOpenLogin] = useState(false);
   return (
-    <div className="home_container  overflow-hidden min-w-[400px]">
+    <div className="home_container  overflow-hidden min-w-[400px] z-1">
       <header className="home_header bg-[#f9fafb] z-0">
         <div className="home_header_item_out">
           {header_json.map((item) => (
@@ -18,9 +34,16 @@ export default function Home() {
         </div>
 
         <div className="home_header_sign">
-          <button className="home_btn ">ورود / ثبت نام</button>
+          <button
+            onClick={() => setOpenLogin((prevLogin) => !prevLogin)}
+            className="home_btn "
+          >
+            ورود / ثبت نام
+          </button>
+          <div className=" w-full h-full relative top-[140px] flex justify-start items-center z-2">
+            {login && <Login />}
+          </div>
         </div>
-        {/* <Modals /> */}
       </header>
       <main className=" min-w-[400px] h-full flex flex-col items-center justify-center ">
         <div className="  h-[230px] relative top-[-160px] flex flex-col items-center justify-center ">
