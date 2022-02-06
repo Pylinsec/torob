@@ -131,7 +131,7 @@ function Home() {
     },
   ];
   return (
-    <div className="home_container  overflow-hidden ">
+    <div className="home_container  overflow-hidden   ">
       <header className="home_header bg-[#f9fafb] ">
         <div className="home_header_item_out">
           {header_json.map((item) => (
@@ -144,14 +144,14 @@ function Home() {
           ))}
         </div>
 
-        <section className="home_header_sign flex flex-col ">
+        <section className="home_header_sign flex flex-col  ">
           <button
             onClick={() => setOpenLogin((prevLogin) => !prevLogin)}
             className="home_btn"
           >
             ورود / ثبت نام
           </button>
-          <div className=" ">
+          <div className=" flex  z-10 bg-[black]">
             {login && <Login closeLogin={setOpenLogin} />}
           </div>
         </section>

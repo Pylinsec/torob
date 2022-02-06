@@ -42,8 +42,8 @@
   cursor: pointer;
 }
 
-/* _____576px____ */
-@media only screen and (min-width: 576px) {
+/* _____536px____ */
+@media only screen and (min-width: 536px) {
   .home_header {
     height: 48px;
   }

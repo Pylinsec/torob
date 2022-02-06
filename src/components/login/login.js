@@ -2,7 +2,7 @@ import React from "react";
 import close from "./../../assets/svg/close.svg";
 export default function Login({ closeLogin }) {
   return (
-    <main className="bg-[#FFF] absolute top-[140px] flex justify-center items-center z-100">
+    <main className="bg-[#FFF] absolute  right-1/3 flex  z-100">
       <div className="w-[400px] h-[300px] bg-[#FFFFFF] ">
         <section onClick={() => closeLogin(false)} className="cursor-pointer">
           <img className="mt-[5px]" src={close} alt="closeicon" />
@@ -14,11 +14,11 @@ export default function Login({ closeLogin }) {
           </div>
         </section>
         <section className="h-[219px] py-[15px] px-[30px]">
-          <div className="pb-[5px] text-right text-[#333333]">
+          <div className="pb-[5px] mr-[35px] text-right text-[#333] text-[14px]">
             شماره موبایل{" "}
           </div>
-          <div>
-            <input className="w-full h-[34px] bg-[#FFFFFF] text-[14px] px-[12px] py-[6px] boreder-[2px] border-solid border-[#cccc]"></input>
+          <div className="text-center">
+            <input className="w-[300px] h-[34px] bg-[#FFFFFF] text-[14px] font-bold px-[12px] py-[6px] rounded-[4px] border-[1px] border-solid border-[#cccc]"></input>
             <div className="h-[28px]">
               <p className=" text-[13px] text-right text-[#BF1F25] hidden">
                 باید ۱۱ رقم باشد و با 09 شروع شود.
