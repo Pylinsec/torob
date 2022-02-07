@@ -1,0 +1,45 @@
+.mobile_container,
+.columnelement,
+.mainlist {
+  cursor: normal;
+}
+
+.droptitle {
+  font-size: 14px;
+  text-align: right;
+  color: #333333;
+  line-height: 26px;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: start;
+  cursor: pointer;
+}
+.link-on-clicksubtitle {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: bold;
+  line-height: 40px;
+  display: block;
+  text-align: start;
+  cursor: pointer;
+}
+.subsubitems {
+  font-size: 12px;
+  line-height: 28px;
+  cursor: pointer;
+  line-height: 30px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.mainlist {
+  column-width: 180px;
+  padding: 0px 38px 114px 38px;
+  margin-bottom: 10px;
+}
+.link-on-clicksubtitle:hover,
+.link-on-clickgrayhover:hover {
+  color: #d73948;
+}

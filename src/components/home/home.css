@@ -46,3 +46,51 @@
   background-color: rgb(72, 126, 241);
   color: white;
 }
+.home_footer {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .home_footer {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 76px;
+    background: #f9fafb;
+  }
+  .jsx-234733792 {
+    margin: 0px 12px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    line-height: 20px;
+    float: right;
+    /* font-family: iranyekan, Aerial; */
+  }
+  .footer-row {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .home_main {
+    height: 490px;
+  }
+  .home_footer {
+    direction: rtl;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 28px;
+    height: 40px;
+  }
+  .footer-row {
+    padding: 10px 28px;
+  }
+}

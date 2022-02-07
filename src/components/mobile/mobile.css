@@ -1,3 +1,20 @@
+.columnelement {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: 580px;
+  line-height: 24px;
+  display: block;
+}
+.mainlist {
+  column-width: 180px;
+  padding: 0px 38px 114px 38px;
+  margin-bottom: 10px;
+}
+.link-on-clicksubtitle:hover,
+.link-on-clickgrayhover:hover {
+  color: #d73948;
+}
+
 @media only screen and (min-width: 536px) {
   .mobile_container {
     top: 52px;

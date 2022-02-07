@@ -131,7 +131,7 @@ function Home() {
     },
   ];
   return (
-    <div className="home_container  overflow-hidden   ">
+    <div className="home_container overflow-hidden   ">
       <header className="home_header bg-[#f9fafb] ">
         <div className="home_header_item_out">
           {header_json.map((item) => (
@@ -156,7 +156,7 @@ function Home() {
           </div>
         </section>
       </header>
-      <main className=" min-w-[400px] h-full flex flex-col items-center justify-center ">
+      <main className="home_main min-w-[400px] h-[450px] mt-[50px] flex flex-col items-center justify-center ">
         <div className="  h-[230px] relative top-[-160px] flex flex-col items-center justify-center ">
           <section className="flex justify-start flex-row-reverse mt-[15px] mb-[24px]">
             <div className="w-[85px] h-[85px] mt-[9px] ml-[12px] ">
@@ -200,6 +200,46 @@ function Home() {
           </section>
         </div>
       </main>
+      <footer className=" home_footer jsx-234733792 footer-home indexFooter">
+        <div className="jsx-234733792 footer_row ">
+          <a className="jsx-234733792  " href="/pages/safe-shopping-guide/">
+            راهنمای خرید امن
+          </a>
+          <a className="jsx-234733792 " href="/feedback/complaints/1/">
+            پیگیری سفارش
+          </a>
+          <a className="jsx-234733792 " href="/pages/contact-us/">
+            تماس با ما
+          </a>
+          <a className="jsx-234733792 " href="/pages/about-us/">
+            درباره ترب
+          </a>
+        </div>
+        <div className="jsx-234733792  footer-row float-left">
+          <a className="jsx-234733792 " href="/shop-list/">
+            لیست فروشگاه‌ها
+          </a>
+          <a
+            rel="noopener noreferrer nofollow"
+            href="https://panel.torob.com/"
+            target="_blank"
+            className="jsx-234733792 "
+          >
+            ثبت‌نام‌ فروشگاه‌ها
+          </a>
+          <a
+            rel="noopener noreferrer nofollow"
+            href="https://panel.torob.com/"
+            target="_blank"
+            className="jsx-234733792 "
+          >
+            پنل فروشگاه‌ها
+          </a>
+          <a className="jsx-234733792 " href="/pages/careers/">
+            فرصت‌های شغلی
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

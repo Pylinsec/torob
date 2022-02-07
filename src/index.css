@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: "iranyekanwebregular";
+  font-family: "iranyekan";
   src: local("iranyekanwebregular"),
     url(./assets/fonts/iranyekanwebregular.woff) format("woff");
   font-weight: 400;
@@ -16,21 +16,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: iranyekanwebregular, Aerial;
+  font-family: iranyekan;
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer utility {
-  .text-color1 {
-    float: right;
-    color: #d73948;
-    display: block;
-    font-size: 40px;
-    font-weight: bold;
-    min-width: 165px;
-    line-height: 69px;
-    margin: 0;
-    padding: 0;
-  }
-}

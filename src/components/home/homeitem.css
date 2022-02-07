@@ -47,6 +47,9 @@
   .home_header {
     height: 48px;
   }
+  .home_main {
+    margin-top: 90px;
+  }
 }
 /* _____800px____ */
 @media only screen and (min-width: 800px) {
