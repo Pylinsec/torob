@@ -131,7 +131,7 @@ function Home() {
     },
   ];
   return (
-    <div className="home_container overflow-hidden   ">
+    <div className="home_container  h-auto w-auto ">
       <header className="home_header bg-[#f9fafb] ">
         <div className="home_header_item_out">
           {header_json.map((item) => (
@@ -156,7 +156,7 @@ function Home() {
           </div>
         </section>
       </header>
-      <main className="home_main min-w-[400px] h-[450px] mt-[50px] flex flex-col items-center justify-center ">
+      <main className="home_main  relative top-[200px]  mt-[50px] flex flex-col items-center justify-center ">
         <div className="  h-[230px] relative top-[-160px] flex flex-col items-center justify-center ">
           <section className="flex justify-start flex-row-reverse mt-[15px] mb-[24px]">
             <div className="w-[85px] h-[85px] mt-[9px] ml-[12px] ">
@@ -182,7 +182,7 @@ function Home() {
               <input
                 className="  text-[16px] w-full h-full w-[478px] h-[46px] py-[1px] pl-[10px] text-right 
                 
-                  focus:outline-none focus:border-none "
+                  focus:outline-none focus:border-none  "
                 placeholder="نام کالا را وارد کنید"
                 name="query"
                 autocomplete="off"
@@ -200,7 +200,7 @@ function Home() {
           </section>
         </div>
       </main>
-      <footer className=" home_footer jsx-234733792 footer-home indexFooter">
+      <footer className=" home_footer   jsx-234733792 footer-home  ">
         <div className="jsx-234733792 footer_row ">
           <a className="jsx-234733792  " href="/pages/safe-shopping-guide/">
             راهنمای خرید امن
